@@ -1,5 +1,7 @@
 {
-  "private": true,
+  "name": "second-singularity",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -8,10 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/vercel": "3.2.2",
-    "astro": "^2.2.1",
-    "mongodb": "^5.7.0",
-    "react": "18.2.0",
-    "web-vitals": "^3.3.1"
+    "@astrojs/node": "^5.3.2",
+    "@astrojs/vercel": "^3.8.0",
+    "astro": "^2.10.3",
+    "mongodb": "^5.7.0"
   }
 }
