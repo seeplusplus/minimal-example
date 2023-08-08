@@ -1,9 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import { test} from './test.cjs';
 
-const { MongoClient } = require('mongodb');
-console.log(MongoClient);
+test();
 export const prerender = true;
 ---
 
